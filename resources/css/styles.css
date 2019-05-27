@@ -1,4 +1,4 @@
-html {
+body {
   font-size: 14px;
   font-family: "Work Sans", sans-serif;
   background-color: rgb(255, 242, 242);
@@ -10,15 +10,52 @@ h1 {
   font-size: 2.5rem;
   font-weight: bold;
   color: rgb(32, 64, 86);
+  padding-bottom: 2rem;
 }
 
 h3 {
   font-size: 1rem;
   font-weight: bold;
   color: rgb(74, 74, 74);
+  padding-bottom: 0.25rem;
 }
 
 p {
   font-size: 1rem;
   color: rgb(74, 74, 74);
+  padding-bottom: 2rem
+}
+
+/* container styles */
+
+.container {
+  padding-top: 5.25rem;
+}
+
+.instructions {
+  padding: 0 2rem 2rem 2rem;
+}
+
+.game-cards {
+  padding: 0 2.5rem 2.5rem 2.5rem;
+}
+
+/* game card styles */
+
+.card {
+  height: 12.5rem;
+  background-color: rgb(32, 64, 86);
+  border: 4px solid rgb(255, 242, 242);
+  border-radius: 8px;
+  padding: 0;
+  font-size: 7rem;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover {
+  cursor: pointer;
 }
