@@ -2,12 +2,27 @@
 <html>
 <head>
   <title>Match Game</title>
+  <link href="./resources/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
-  <script
-    src="https://code.jquery.com/jquery-3.1.1.min.js"
-    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-    crossorigin="anonymous"></script>
+  <section class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-3 col-lg-12">
+        <h1>Match Game</h1>
+        <h3>Rules</h3>
+        <p>Click on a card to reveal the number on the other side. Click on the second card to try and find a match to the first. If you succeed, the pair will be removed from play. If not, try again!</p>
+        <h3>How To Win</h3>
+        <p>You win when all pairs have been found.</p>
+      </div>
+      <div id="game" class="col-sm-12 col-md-9 col-lg-12">
+
+      </div>
+    </div>
+  </section>
+
+
+
+
   <script type="text/javascript" src="./resources/js/match-game.js"></script>
   <script type="text/javascript" src="./resources/js/tests.js"></script>
 </body>
